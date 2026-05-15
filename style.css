@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Playfair", "Open Sans";
+    line-height: 1.7em;
+    background-color: #181a1b;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: "Open Sans", "Playfair";
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.text-primary {
+    color: #b81313;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* NAVBAR */
+
+#navbar {
+    background: #11151c;
+    color: #fff;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+
+#navbar h1 {
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.5rem;
+}
+
+#navbar h1 i {
+    font-size: 2.5rem;
+    color: #b81313;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+#navbar ul li {
+    font-size: 18px;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px 40px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    color: #b81313;
+    border-bottom: 3px solid #b81313;
+}
+
+/* SISU */
+
+#showcase {
+    background: #181a1b;
+    padding: 60px 0;
+}
+
+.showcase-container {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+    gap: 50px;
+}
+
+.showcase-text {
+    flex: 1;
+}
+
+.l-heading {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.par {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #ccc;
+}
+
+.showcase-img {
+    flex: 1;
+}
+
+.showcase-img img {
+    width: 100%;
+    height: 450px;
+    border-radius: 15px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.box-background {
+    text-align: center;
+    background: #181a1b;
+    padding: 60px 0 20px;
+}
+
+.box-background h1 {
+    font-size: 2.5rem;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+/* SISUPLAAN */
+
+#sisuplaan {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 10px 80px;
+    gap: 20px;
+}
+
+#sisuplaan .sisuplaani-box {
+    flex: 1;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #24272b;
+    border-radius: 12px;
+}
+
+#sisuplaan .sisuplaani-box i {
+    margin-bottom: 20px;
+    font-size: 3.5rem;
+    color: #b81313;
+}
+
+#sisuplaan .sisuplaani-box h3 {
+    font-size: 1.5rem;
+}
+
+#sisuplaan .sisuplaani-box p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* MIKS KÄIA */
+
+#features {
+    background: #0b0b0c;
+    padding: 80px 0;
+}
+
+.features-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+
+.feature-item i {
+    font-size: 2rem;
+    color: #b81313;
+    padding: 20px;
+}
+
+.feature-item h3 {
+    font-size: 1.3rem;
+    padding-bottom: 5px;
+}
+
+.feature-item p {
+    font-size: 0.95rem;
+    color: #aaa;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer-primary {
+    text-align: center;
+    background: #0b0b0c;
+    color: #666;
+    padding: 40px 20px;
+    border-top: 1px solid #222;
+}
+
+/* tüüpilised vead */
+
+#vead-content {
+    padding: 40px 0 80px;
+}
+
+.vead-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.viga-item {
+    flex: 1 1 calc(50% - 20px);
+    background: #24272b;
+    padding: 40px;
+    border-radius: 12px;
+    border-left: 5px solid #b81313;
+}
+
+.viga-item i {
+    font-size: 2.5rem;
+    color: #b81313;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.viga-item h3 {
+    font-size: 1.6rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.viga-item p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.video {
+    text-align: center;
+}
+
+/* Kuidas lahendada need */
+
+#õige-content {
+    padding: 40px 0 80px;
+}
+
+.õige-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.õige-item {
+    background: #24272b;
+    padding: 40px;
+    border-radius: 12px;
+    border-left: 5px solid #b81313;
+}
+
+.õige-item i {
+    font-size: 2.5rem;
+    color: #b81313;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.õige-item h3 {
+    font-size: 1.6rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.õige-item p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+/* Mida esimesel päeval kaasa võtta */
+
+#kaasa-content {
+    padding: 40px 0 80px;
+}
+
+.kaasa-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.kaasa-item {
+    flex: 1 1 calc(100%);
+    background: #24272b;
+    padding: 40px;
+    border-radius: 12px;
+    border-left: 5px solid #b81313;
+}
+
+.kaasa-item i {
+    font-size: 2.5rem;
+    color: #b81313;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.kaasa-item h3 {
+    font-size: 1.6rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.kaasta-item p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+/* mida esimesel päeval teha */
+

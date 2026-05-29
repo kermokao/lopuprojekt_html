@@ -496,8 +496,6 @@ p {
 .video iframe {
 
     width: 100%;
-    left: 0;
-    height: auto;
     height: 30vh;
 }
 
